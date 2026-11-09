@@ -1,0 +1,39 @@
+{
+  "name": "饭太硬接口·动漫仓",
+  "spider": "https://xiuxiu-pro-new.meitudata.com/posters/937f5abf1c7c4ff2f170d835c5c46c21.jpg;md5;9d5f341aa5f3353b50cc3bc16b4f3e8a",
+  "wallpaper": "https://动态壁纸.饭.eu.org/",
+  "logo": "https://bdcache1-f1.v3mh.com/image/25-12-16/6941612717007.gif",
+  "hosts": [
+    "img1.wsyzy.org=cmcc.vvvv.ee",
+    "fiizvfck.top=cmcc.vvvv.ee",
+    "images.67c6c7a.com=cmcc.vvvv.ee"
+  ],
+  "rules": [
+    {
+      "hosts": [
+        "cdn.ryplay"
+      ],
+      "name": "cdn.ryplay",
+      "regex": [
+        "5.480000",
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY",
+        "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "api": "csp_Dm84Guard",
+      "changeable": 1,
+      "key": "Dm84",
+      "name": "🚌巴士┃动漫",
+      "quickSearch": 1,
+      "searchable": 1,
+      "timeout": 10,
+      "type": 3
+    }
+  ],
+  "lives": []
+}

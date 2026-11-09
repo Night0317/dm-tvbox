@@ -1,0 +1,8 @@
+﻿# 加密配置与缓存
+_decrypted/
+__pycache__/
+*.pyc
+*.log
+
+# 本地测试
+test_local/

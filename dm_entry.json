@@ -1,0 +1,25 @@
+{
+  "name": "动漫聚合总仓",
+  "urls": [
+    {
+      "url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_src2.json",
+      "name": "肥猫主用二·动漫"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_src3.json",
+      "name": "饭太硬接口·动漫"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_src4.json",
+      "name": "摸鱼接口·动漫"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_src5.json",
+      "name": "潇洒接口·动漫"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Night0317/dm-tvbox/main/dm_src6.json",
+      "name": "肥猫主用三·动漫"
+    }
+  ]
+}
